@@ -1,0 +1,21 @@
+{
+  "name": "jate-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "dev": "nodemon ./server/server.js --ignore client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
